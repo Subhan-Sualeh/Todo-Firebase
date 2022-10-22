@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    /* display: flex; */
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: center;
+}
+.mainHead{
+    font-size: 1.3rem;
+    padding: 10px;
+    border-bottom: 2px solid;
+    text-align: center;
+    background-color: rgb(241, 205, 0);
+}
+.wholeClass{
+    margin: 0% 8%;
+}
+.inputMain{
+    display: flex;
+    padding: 13px;
+    justify-content: space-around;
+}
+input{
+    outline: none;
+    width: 60%;
+    border-bottom: solid black 2px;
+    font-size: 1.2rem;
+    padding: 2px;   
+}   
+input{
+    border-bottom: black solid 2px;
+    
+}
+/* input:valid{
+    border-bottom: black solid 2px;
+} */
+.editInput{
+    width: auto;
+}
+.btns{
+    padding: 0% 8px;
+    margin: 0% 5px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(241, 205, 0);
+    color: black;
+}
+.todolines{
+    margin: 10px;
+    font-size: 1.3rem;
+    padding: 2px;
+}
+.space{
+    margin-left: 10%;
+}
